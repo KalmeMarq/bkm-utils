@@ -1,0 +1,23 @@
+{
+  "name": "bkm-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "map",
+    "list",
+    "typescript"
+  ],
+  "author": "KalmeMarq",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^15.0.2",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  }
+}
